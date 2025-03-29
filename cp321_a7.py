@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1lIIqjC77PR6xRcnBCHvEFxUG4bKgmZip
 """
 
-pip install dash
 
 import dash
 from dash import html, dcc, Output, Input
