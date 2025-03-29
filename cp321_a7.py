@@ -40,6 +40,8 @@ fig_map = px.choropleth(win_counts,
 
 # --- Dash App Layout and Callbacks ---
 app = dash.Dash(__name__)
+server = app.server
+
 
 app.layout = html.Div([
     html.H1("FIFA World Cup Dashboard", style={'textAlign': 'center', 'margin-bottom': '20px'}),
